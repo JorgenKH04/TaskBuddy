@@ -227,9 +227,9 @@ function getSortLS() {
 setTimeout(() => {
 	if (getSortLS()) {
 		selectedSort = JSON.parse(localStorage.getItem("selectedSort"));
-		checkSort();
-		pickSort();
 	}
+	checkSort();
+	pickSort();
 }, "1000");
 
 export {

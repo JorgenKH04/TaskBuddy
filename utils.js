@@ -225,7 +225,6 @@ function getSortLS() {
 }
 
 setTimeout(() => {
-	console.log("Delayed for 1 second.");
 	if (getSortLS()) {
 		selectedSort = JSON.parse(localStorage.getItem("selectedSort"));
 		checkSort();

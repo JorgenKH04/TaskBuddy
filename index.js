@@ -130,19 +130,16 @@ function setLocalStorage(arr, key) {
 }
 
 const pickSort = () => {
-	console.log(selectedSort);
 	switch (selectedSort) {
 		case "btnTime":
 			setTimeout(() => {
 				sortDate(taskArray);
-				console.log(taskArray);
 				taskRender();
 			}, "1000");
 			break;
 		case "btnAlphabetical":
 			setTimeout(() => {
 				sortAlphabetically(taskArray);
-				console.log(taskArray);
 				taskRender();
 			}, "1000");
 			break;
